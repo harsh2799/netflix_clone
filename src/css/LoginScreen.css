@@ -1,0 +1,92 @@
+.loginScreen {
+    position: relative;
+    height: 100%;
+    background: url("https://netclo.vercel.app/_next/image?url=https%3A%2F%2Fassets.nflxext.com%2Fffe%2Fsiteui%2Fvlv3%2Fac9aedf1-a687-4c5d-965c-2fc3eac84aea%2Fed2f162a-b9ef-43fd-8042-84978039a3ba%2FIN-en-20221206-popsignuptwoweeks-perspective_alpha_website_large.jpg&w=3840&q=75") center no-repeat;
+    background-size: cover;
+}
+
+.loginScreen_logo {
+    position: fixed;
+    left: 0;
+    width: 150px;
+    padding-left: 20px;
+}
+
+.loginScreen_button {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.loginScreen_gradient {
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background: rgba(0,0,0, 0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0, 0.8) 0,
+        rgba(0,0,0, 0) 60%,
+        rgba(0,0,0, 0.8) 100%
+    );
+}
+
+.loginScreen_body {
+    z-index: 1;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.loginScreen_body > h1 {
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+}
+
+.loginScreen_body > h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.loginScreen_body > h3 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+
+.loginScreen_input {
+    margin: 20px;
+}
+
+.loginScreen_input > form > input {
+    padding: 10px;
+    outline-width: 0;
+    height: 30px;
+    width: 40%;
+    border: none;
+    max-width: 600px;
+}
+
+.loginScreen_getStarted {
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+
+}
